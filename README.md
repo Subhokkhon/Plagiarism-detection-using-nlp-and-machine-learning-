@@ -1,4 +1,4 @@
-# Plagiarism-detector-using-machine-learning
+# Plagiarism-detector-using-machine-learning and natural-language-processing
 
 # Introduction
 
@@ -28,9 +28,9 @@ Stopwords Removal: Removing common words like "and", "the", etc., that do not co
 We use the Term Frequency-Inverse Document Frequency (TF-IDF) vectorizer to transform the text data into numerical features. Then, we train a model using these features. For this example, we will use a simple logistic regression model.
 
 
-# Creating the Flask Web Application
+# Creating the Streamlit Web Application
 
-To make our plagiarism detector easily accessible, we create a Flask web application. This application will provide a user interface where users can input two text documents and receive a plagiarism score.
+To make our plagiarism detector easily accessible, we create a Streamlit web application. This application will provide a user interface where users can input two text documents and receive a plagiarism score.
 
 
 
